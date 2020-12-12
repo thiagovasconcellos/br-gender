@@ -1,8 +1,9 @@
 {
   "name": "br-gender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to determine gender by name. Some database doest not have GENDER intel, so it can be very helpful a lib that can predict gender based on a person's first name. Be aware, this lib was built upon Brazilians census. So it will work with Brazilian names or common names used in Brazil.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "url": "https://github.com/thiagovasconcellos/br-gender"
   },

@@ -54,3 +54,5 @@ I know it isn't perfect, but it suited my project back in the day.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+QW\*wR9B!Ew5k;nv
