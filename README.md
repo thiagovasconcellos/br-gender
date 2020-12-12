@@ -22,21 +22,21 @@ yarn add br-gender
 
 ## Example
 
-Usage is pretty straightforward. Import genderByName from package and pass a name to it.
+Usage is pretty straightforward. Import getGenderByName from package and pass a name to it.
 
 ```js
-import genderByName from 'br-gender';
+import { getGenderByName } from 'br-gender';
 
-const gender = await genderByName('Thiago');
+const gender = await getGenderByName('Thiago');
 // OUTPUT: 'Male'
 ```
 
 You can also pass a boolean property to get back the percentual of gender over every entry:
 
 ```js
-import genderByName from 'br-gender';
+import { getGenderByName } from 'br-gender';
 
-const gender = await genderByName('Thiago', { percentage: true });
+const gender = await getGenderByName('Thiago', { percentage: true });
 // OUTPUT: { gender: 'Male', percentage: 99.30}
 ```
 
