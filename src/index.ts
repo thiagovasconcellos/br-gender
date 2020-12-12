@@ -43,4 +43,4 @@ async function getGenderByName(name: string, opts?: options): Promise<string | {
   }
 }
 
-export { getGenderByName };
+export = { getGenderByName };
